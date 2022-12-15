@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "small app to search recipes",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ivan Kudinov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@parcel/transformer-sass": "^2.0.0-nightly.646",
+    "parcel": "^2.0.0-nightly.644",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "core-js": "^3.10.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
